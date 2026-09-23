@@ -64,6 +64,13 @@ const Footer = () => {
           </div>
         </div>
 
+        <div className="footer-bottom">
+          <p>&copy; {currentYear} {mentorData.personalInfo.name}. All rights reserved.</p>
+          <div className="footer-brand">
+            <span>Developed by</span>
+            <strong className="fwt-logo">FWT</strong>
+          </div>
+        </div>
       </div>
     </footer>
   );
