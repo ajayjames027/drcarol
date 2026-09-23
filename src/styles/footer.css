@@ -72,11 +72,11 @@
   gap: 0.5rem;
 }
 
-.fwt-logo {
-  font-weight: 700;
-  font-size: 1.25rem;
-  color: var(--color-accent);
-  letter-spacing: 1px;
+.fwt-logo-img {
+  height: 40px;
+  width: auto;
+  object-fit: contain;
+  border-radius: 4px;
 }
 
 @media (max-width: 768px) {

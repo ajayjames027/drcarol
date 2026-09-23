@@ -68,7 +68,7 @@ const Footer = () => {
           <p>&copy; {currentYear} {mentorData.personalInfo.name}. All rights reserved.</p>
           <div className="footer-brand">
             <span>Developed by</span>
-            <strong className="fwt-logo">FWT</strong>
+            <img src="/fwt-logo.jpeg" alt="FWT Logo" className="fwt-logo-img" />
           </div>
         </div>
       </div>
