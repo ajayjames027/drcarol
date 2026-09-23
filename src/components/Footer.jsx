@@ -67,7 +67,9 @@ const Footer = () => {
         <div className="footer-bottom">
           <p>&copy; {currentYear} {mentorData.personalInfo.name}. All rights reserved.</p>
           <div className="footer-brand">
-            <img src="/fwt-logo.jpeg" alt="FWT Logo" className="fwt-logo-img" />
+            <a href="https://www.frontierwox.in" target="_blank" rel="noopener noreferrer" aria-label="Visit Frontier Wox">
+              <img src="/fwt-logo.jpeg" alt="FWT Logo" className="fwt-logo-img" />
+            </a>
           </div>
         </div>
       </div>
